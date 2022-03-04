@@ -1,0 +1,48 @@
+.conteiner {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://images7.alphacoders.com/324/thumb-1920-324495.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.clima {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 800px;
+  background-color: rgb(210, 244, 250);
+  border-radius: 20px;
+  margin-top: 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+.meio {
+  justify-content: center;
+  align-items: center;
+}
+
+.informaçoes {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+.current-weather-status {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.span-bold {
+  font-weight: bold;
+}

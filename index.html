@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>GiG Climate</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./Imagens/icon.png" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <header class="topo">
+        <h1>GiG Climate</h1>
+    </header>
+    
+    <main>
+      <p id="demo"></p>
+      <section class="weather-info"></section>
+      <div class="conteiner">
+          <section class="clima meio">
+            <section class="button">
+              <button
+                type="button"
+                class="request-weather-info"
+                onclick="getUserWeatherInfo()">Acesse suas Informações!
+              </button>
+            </section>
+    
+          </section>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>
